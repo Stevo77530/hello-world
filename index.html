@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Capt. Stevo's Crewchange — Level 1 Prototype</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div id="game-root"></div>
+
+    <div id="hud" class="hidden">
+      <div class="hud-top">
+        <div id="objective">Objective: GET OFF THE BOAT</div>
+        <div id="signal"></div>
+      </div>
+      <div class="crosshair">+</div>
+      <div class="hud-bottom">
+        <div id="health">HP: 100</div>
+        <div id="ammo">Shells: 6 / 24</div>
+      </div>
+    </div>
+
+    <div id="subtitle"></div>
+
+    <div id="overlay" class="overlay visible">
+      <h1>Capt. Stevo's Crewchange</h1>
+      <h2>Level 1: Off the Boat</h2>
+      <p id="overlay-message">Click to begin intro.</p>
+      <p class="hint">WASD move • Mouse look • Click fire • R reload • P pause</p>
+    </div>
+
+    <script type="module" src="src/main.js"></script>
+  </body>
+</html>
