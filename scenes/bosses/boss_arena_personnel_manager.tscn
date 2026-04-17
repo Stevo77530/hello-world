@@ -1,0 +1,10 @@
+[gd_scene load_steps=2 format=3]
+
+[ext_resource type="Script" path="res://scripts/bosses/boss_arena_personnel_manager.gd" id="1"]
+
+[node name="BossArenaPersonnelManager" type="Node3D"]
+script = ExtResource("1")
+
+[node name="GateTrigger" type="Area3D" parent="."]
+
+[node name="ArenaCenter" type="Marker3D" parent="."]
